@@ -1,0 +1,37 @@
+😶使用方法 😶
+
+mailer.xlsx の記入によって送信先、ＣＣ、ＢＣＣ、タイトル、本文を決める。　それ以降の列、シートを別に作成しても関係ないため、保存用や関数入力等自由に使用可。
+入力後、multimail.exe を実行。
+
+ユーザー名：	ログインユーザー名、送信元として使用。
+パスワード：	ログインパスワードとして使用。
+ホスト名　：	下記　ホスト通信方式入力 参照
+通信方式　：	同上
+ポート番号：	同上
+
+スタートを押すことで送信。
+
+😶ホスト通信方式入力 😶
+Google
+
+下記のセキュリティ設定を低にする
+https://myaccount.google.com/u/1/lesssecureapps?pageId=none
+
+ホスト名：		smtp.gmail.com
+通信方式,ポート番号：	no-encrypt 25 , no-encrypt  587 , ssl 465   ( 通信方式 ポート) のいずれか
+
+Yahoo!
+
+ホスト名：		smtp.mail.yahoo.co.jp
+通信方式,ポート番号：	starttls 587 starttls  25  ssl 465　のいずれか   ( 通信方式 ポート) のいずれか
+
+
+
+他もホスト名,通信方式,ポート番号が確認できるものは送信可能。
+
+😶問い合わせ先 😶
+Web
+https://ocome85.work/info/
+
+Mail 
+ocome8512@gmail.com
